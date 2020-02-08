@@ -18,7 +18,6 @@ $(OBJ_DIR)%.o: $(SRC_DIR)/%.c
 # $(OBJS): 9cc.h
 
 test: 9cc
-	./9cc -test
 	./test.sh
 
 clean:
