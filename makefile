@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -g -std=c11 -static
+CFLAGS=-g -std=c11 -static
 SRC_DIR=./
 OBJ_DIR=./out/
 SRCS=$(shell ls $(SRC_DIR)*.c)
